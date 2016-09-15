@@ -1,0 +1,32 @@
+mkdir rep1
+zzz
+mkdir rep3
+mkdir rep2
+mkdir rep0
+mkdir rep4
+cd rep2
+mkdir srep1
+mkdir srep2
+lsdir
+cd ..
+mkfile fichier3
+mkfile fic2
+mkfile fic1 /f
+Ceci est un contenu de fichier
+bla bla bla
+
+cd ..
+cd rep2
+lsfile fic1
+mkfile fic1rep2
+mkdir rep1rep2
+cd ..
+mkdir monrep
+cd monrep
+lsdir
+cd ..
+lsfile test.txt
+cd ..
+lsdir /f
+rmdir rep3
+lsdir
